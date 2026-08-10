@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publications | MCAA Lab</title>
+    <meta name="description" content="Browse peer-reviewed journal papers, conference proceedings, and preprints from MCAA Lab.">
+    <link rel="icon" type="image/svg+xml" href="assets/images/brand.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <!-- ============ HEADER ============ -->
+    <header class="site-header" id="siteHeader">
+        <div class="nav-inner">
+            <a class="brand" href="index.html">
+                <span class="brand-mark"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M12 2l8.66 5v10L12 22l-8.66-5V7l8.66-5Z"/><circle cx="12" cy="12" r="4.5" fill="#fff" opacity=".95"/></svg></span>
+                <span class="brand-name">MCAA Lab<span class="brand-sub">Modeling &middot; Control &middot; Automation &middot; Analysis</span></span>
+            </a>
+            <nav aria-label="Primary navigation">
+                <ul class="nav-links">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="team.html">Team</a></li>
+                    <li class="nav-item"><a class="nav-link" href="news.html">News</a></li>
+                    <li class="nav-item"><a class="nav-link" href="awards.html">Awards</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="publications.html">Publications</a></li>
+                    <li class="nav-item"><a class="nav-link" href="collaborations.html">Collaborations</a></li>
+                    <li class="nav-item"><a class="nav-link" href="lab-posters.html">Lab Posters</a></li>
+                    <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="membership.html">Membership</a></li>
+                </ul>
+            </nav>
+            <div class="nav-actions">
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle color theme">
+                    <span class="icon icon-sun"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg></span>
+                    <span class="icon icon-moon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg></span>
+                </button>
+                <a href="contact.html" class="btn btn-primary btn-sm nav-btn">Get in Touch <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></a>
+                <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+                    <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- ============ MOBILE NAV ============ -->
+    <div class="mobile-nav" id="mobileNav" aria-hidden="true">
+        <div class="mobile-nav-head">
+            <a class="brand" href="index.html">
+                <span class="brand-mark"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M12 2l8.66 5v10L12 22l-8.66-5V7l8.66-5Z"/><circle cx="12" cy="12" r="4.5" fill="#fff" opacity=".95"/></svg></span>
+                <span class="brand-name">MCAA Lab<span class="brand-sub">Modeling &middot; Control &middot; Automation &middot; Analysis</span></span>
+            </a>
+            <button class="mobile-close" id="mobileClose" aria-label="Close menu">
+                <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></span>
+            </button>
+        </div>
+        <ul class="mobile-nav-list">
+            <li><a class="mobile-link" href="index.html">Home</a></li>
+            <li><a class="mobile-link" href="team.html">Team</a></li>
+            <li><a class="mobile-link" href="news.html">News</a></li>
+            <li><a class="mobile-link" href="awards.html">Awards</a></li>
+            <li><a class="mobile-link active" href="publications.html">Publications</a></li>
+            <li><a class="mobile-link" href="collaborations.html">Collaborations</a></li>
+            <li><a class="mobile-link" href="lab-posters.html">Lab Posters</a></li>
+            <li><a class="mobile-link" href="gallery.html">Gallery</a></li>
+            <li><a class="mobile-link" href="contact.html">Contact</a></li>
+            <li><a class="mobile-link" href="membership.html">Membership</a></li>
+        </ul>
+        <div class="mobile-nav-foot">
+            <a href="contact.html" class="btn btn-primary">Get in Touch <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></a>
+            <a href="membership.html" class="btn btn-ghost">Membership</a>
+        </div>
+    </div>
+
+    <main>
+        <!-- ============ PAGE HERO ============ -->
+        <section class="page-hero bare">
+            <div class="container">
+                <div>
+                    <div class="breadcrumb"><a href="index.html">Home</a><span class="sep">/</span><span>Publications</span></div>
+                    <h1>Publications</h1>
+                    <p class="lede">Peer-reviewed journal papers, conference proceedings, and open preprints from the MCAA team.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ FEATURED ============ -->
+        <section class="section section-tight" id="featured">
+            <div class="container">
+                <div class="section-head reveal">
+                    <span class="eyebrow">Highlights</span>
+                    <h2>Featured work</h2>
+                </div>
+                <div class="grid gap-md">
+                    <article class="pub-card reveal">
+                        <div class="pub-index">01</div>
+                        <div>
+                            <div class="d-flex gap-xs">
+                                <span class="badge badge-blue">Journal</span>
+                                <span class="badge badge-teal">Flagship</span>
+                            </div>
+                            <h3 class="mt-sm">Safety-Aware Model Predictive Control for Human-Robot Collaboration</h3>
+                            <p class="authors">A. Vance, L. Mbeki, S. Rahman, K. Chen</p>
+                            <p class="venue">IEEE Transactions on Robotics, vol. 42, 2026</p>
+                            <div class="links"><a href="#"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9l-6-6Z"/><path d="M14 3v6h6M9 13h6M9 17h6"/></svg></span> Paper</a><a href="#"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 4h6v6M20 4L11 13M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg></span> PDF</a><a href="#"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 6l-6 6 6 6M16 6l6 6-6 6"/></svg></span> Code</a><a href="#"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 11H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a6 6 0 0 1-6 6M19 11h-3a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a6 6 0 0 1-6 6"/></svg></span> Cite</a></div>
+                        </div>
+                    </article>
+                    <article class="pub-card reveal delay-1">
+                        <div class="pub-index">02</div>
+                        <div>
+                            <span class="badge badge-purple">Conference</span>
+                            <h3 class="mt-sm">Learning-Based Adaptive Control for Quadrotor Flight in Turbulence</h3>
+                            <p class="authors">K. Chen, A. Vance, M. Duarte, J. Haddad</p>
+                            <p class="venue">IEEE ICRA 2026 &mdash; Best Paper, Intelligent Systems Track</p>
+                            <div class="links"><a href="#"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9l-6-6Z"/><path d="M14 3v6h6M9 13h6M9 17h6"/></svg></span> Paper</a><a href="#"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 4h6v6M20 4L11 13M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg></span> PDF</a><a href="#"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="13" height="14" rx="2"/><path d="M16 10l5-3v10l-5-3"/></svg></span> Video</a></div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ ALL PUBLICATIONS ============ -->
+        <section class="section section-alt">
+            <div class="container">
+                <div class="section-head reveal">
+                    <span class="eyebrow">Library</span>
+                    <h2>All publications</h2>
+                    <p>Use the filters to explore the full library. <span id="pubCount"></span></p>
+                </div>
+
+                <div class="filters reveal" role="tablist">
+                    <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">All</button>
+                    <button class="filter-btn" data-filter="journal" role="tab" aria-selected="false">Journal Papers</button>
+                    <button class="filter-btn" data-filter="conference" role="tab" aria-selected="false">Conference Papers</button>
+                    <button class="filter-btn" data-filter="preprint" role="tab" aria-selected="false">Preprints</button>
+                </div>
+
+                <div class="grid gap-md" id="pubGrid">
+                    <article class="pub-card reveal" data-category="journal">
+                        <div class="pub-index">J1</div>
+                        <div>
+                            <span class="badge badge-blue mb-1">Journal</span>
+                            <h3>Tube-Based MPC With Learned Uncertainty Sets for Uncertain Nonlinear Systems</h3>
+                            <p class="authors">L. Mbeki, A. Vance, R. Tanaka</p>
+                            <p class="venue">Automatica, 2026</p>
+                            <div class="links"><a href="#"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 4h6v6M20 4L11 13M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg></span> Paper</a><a href="#"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 11H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a6 6 0 0 1-6 6M19 11h-3a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a6 6 0 0 1-6 6"/></svg></span> Cite</a></div>
+                        </div>
+                    </article>
+                    <article class="pub-card reveal delay-1" data-category="journal">
+                        <div class="pub-index">J2</div>
+                        <div>
+                            <span class="badge badge-blue mb-1">Journal</span>
+                            <h3>Physics-Informed Neural Digital Twins for Smart-Grid Control</h3>
+                            <p class="authors">R. Tanaka, P. Okafor, A. Vance</p>
+                            <p class="venue">IEEE Transactions on Control of Network Systems, 2026</p>
+                            <div class="links"><a href="#"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 4h6v6M20 4L11 13M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg></span> Paper</a><a href="#"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 6l-6 6 6 6M16 6l6 6-6 6"/></svg></span> Code</a></div>
+                        </div>
+                    </article>
+                    <article class="pub-card reveal delay-2" data-category="journal">
+                        <div class="pub-index">J3</div>
+                        <div>
+                            <span class="badge badge-blue mb-1">Journal</span>
+                            <h3>Explainable Fault Diagnosis in Rotating Machinery via Attention-Based Networks</h3>
+                            <p class="authors">N. Patel, S. Rahman, L. Mbeki</p>
+                            <p class="venue">Mechanical Systems and Signal Processing, 2025</p>
+                            <div class="links"><a href="#"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 4h6v6M20 4L11 13M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg></span> Paper</a><a href="#"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><ellipse cx="12" cy="5" rx="8" ry="3"/><path d="M4 5v14c0 1.7 3.6 3 8 3s8-1.3 8-3V5M4 12c0 1.7 3.6 3 8 3s8-1.3 8-3"/></svg></span> Dataset</a></div>
+                        </div>
+                    </article>
+
+                    <article class="pub-card reveal" data-category="conference">
+                        <div class="pub-index">C1</div>
+                        <div>
+                            <span class="badge badge-purple mb-1">Conference</span>
+                            <h3>Decentralized Swarm Coordination Under Communication Constraints</h3>
+                            <p class="authors">M. Duarte, K. Chen, A. Vance</p>
+                            <p class="venue">IEEE/RSJ IROS 2026</p>
+                            <div class="links"><a href="#"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 4h6v6M20 4L11 13M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg></span> Paper</a><a href="#"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="13" height="14" rx="2"/><path d="M16 10l5-3v10l-5-3"/></svg></span> Video</a></div>
+                        </div>
+                    </article>
+                    <article class="pub-card reveal delay-1" data-category="conference">
+                        <div class="pub-index">C2</div>
+                        <div>
+                            <span class="badge badge-purple mb-1">Conference</span>
+                            <h3>Impedance Control for Deformable Object Manipulation</h3>
+                            <p class="authors">J. Haddad, L. Mbeki, P. Okafor</p>
+                            <p class="venue">IEEE International Conference on Automation Science and Engineering (CASE) 2026</p>
+                            <div class="links"><a href="#"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 4h6v6M20 4L11 13M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg></span> Paper</a></div>
+                        </div>
+                    </article>
+                    <article class="pub-card reveal delay-2" data-category="conference">
+                        <div class="pub-index">C3</div>
+                        <div>
+                            <span class="badge badge-purple mb-1">Conference</span>
+                            <h3>Reachability-Based Safety Filters for Learned Controllers</h3>
+                            <p class="authors">S. Rahman, R. Tanaka, K. Chen</p>
+                            <p class="venue">Conference on Neural Information Processing Systems (NeurIPS) 2025</p>
+                            <div class="links"><a href="#"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 4h6v6M20 4L11 13M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg></span> Paper</a><a href="#"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 6l-6 6 6 6M16 6l6 6-6 6"/></svg></span> Code</a></div>
+                        </div>
+                    </article>
+
+                    <article class="pub-card reveal" data-category="preprint">
+                        <div class="pub-index">P1</div>
+                        <div>
+                            <span class="badge badge-teal mb-1">Preprint</span>
+                            <h3>Neural Digital Twins: Data-Driven Models of Large-Scale Industrial Systems</h3>
+                            <p class="authors">R. Tanaka, P. Okafor, L. Mbeki, A. Vance</p>
+                            <p class="venue">arXiv:2603.xxxxx, 2026</p>
+                            <div class="links"><a href="#"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 4h6v6M20 4L11 13M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg></span> arXiv</a><a href="#"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 6l-6 6 6 6M16 6l6 6-6 6"/></svg></span> Code</a></div>
+                        </div>
+                    </article>
+                    <article class="pub-card reveal delay-1" data-category="preprint">
+                        <div class="pub-index">P2</div>
+                        <div>
+                            <span class="badge badge-teal mb-1">Preprint</span>
+                            <h3>Benchmarking Learned Controllers for Safety-Critical Autonomy</h3>
+                            <p class="authors">S. Rahman, K. Chen, J. Haddad</p>
+                            <p class="venue">arXiv:2602.xxxxx, 2026</p>
+                            <div class="links"><a href="#"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 4h6v6M20 4L11 13M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg></span> arXiv</a><a href="#"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><ellipse cx="12" cy="5" rx="8" ry="3"/><path d="M4 5v14c0 1.7 3.6 3 8 3s8-1.3 8-3V5M4 12c0 1.7 3.6 3 8 3s8-1.3 8-3"/></svg></span> Benchmark</a></div>
+                        </div>
+                    </article>
+                    <article class="pub-card reveal delay-2" data-category="preprint">
+                        <div class="pub-index">P3</div>
+                        <div>
+                            <span class="badge badge-teal mb-1">Preprint</span>
+                            <h3>Time-Series Foundation Models for Predictive Maintenance</h3>
+                            <p class="authors">N. Patel, S. Rahman, L. Mbeki</p>
+                            <p class="venue">arXiv:2601.xxxxx, 2026</p>
+                            <div class="links"><a href="#"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 4h6v6M20 4L11 13M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg></span> arXiv</a><a href="#"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 6l-6 6 6 6M16 6l6 6-6 6"/></svg></span> Code</a></div>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="d-flex mt-4 reveal">
+                    <a href="contact.html" class="btn btn-primary">Request a Reprint <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></a>
+                    <a href="team.html" class="btn btn-ghost">Meet the Team</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ============ FOOTER ============ -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-main">
+                <div class="footer-brand">
+                    <a class="brand" href="index.html">
+                        <span class="brand-mark"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M12 2l8.66 5v10L12 22l-8.66-5V7l8.66-5Z"/><circle cx="12" cy="12" r="4.5" fill="#fff" opacity=".95"/></svg></span>
+                        <span class="brand-name">MCAA Lab<span class="brand-sub">Modeling &middot; Control &middot; Automation &middot; Analysis</span></span>
+                    </a>
+                    <p>MCAA Lab advances modeling, control, automation, and analysis through world-class research, open science, and cross-sector collaboration.</p>
+                    <div class="socials">
+                        <a href="#" aria-label="GitHub"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2a10 10 0 0 0-3.2 19.5c.5.1.7-.2.7-.5v-1.7c-2.8.6-3.4-1.2-3.4-1.2-.4-1.2-1.1-1.5-1.1-1.5-.9-.6.1-.6.1-.6 1 .1 1.5 1 1.5 1 .9 1.6 2.4 1.1 3 .9.1-.7.4-1.1.6-1.4-2.2-.3-4.6-1.1-4.6-5 0-1.1.4-2 1-2.7 0-.3-.4-1.3.1-2.7 0 0 .8-.3 2.7 1a9.4 9.4 0 0 1 5 0c1.9-1.3 2.7-1 2.7-1 .5 1.4.1 2.4.1 2.7.6.7 1 1.6 1 2.7 0 3.9-2.4 4.7-4.6 5 .4.3.7.9.7 1.9v2.8c0 .3.2.6.7.5A10 10 0 0 0 12 2Z"/></svg></span></a>
+                        <a href="#" aria-label="LinkedIn"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4.5 9.5H8V20H4.5V9.5ZM6.25 4a2 2 0 1 1 0 4 2 2 0 0 1 0-4ZM10 9.5H13.4v1.4h.05A3.7 3.7 0 0 1 16.7 9c3 0 3.6 2 3.6 4.5V20h-3.5v-5.5c0-1.3 0-3-1.9-3-1.9 0-2.2 1.4-2.2 2.9V20H10V9.5Z"/></svg></span></a>
+                        <a href="#" aria-label="X (Twitter)"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4l7.2 9.3L4.4 20h2.5l5.4-5.2L16.8 20H20l-7.5-9.7L18.8 4h-2.5l-4.8 4.7L7.2 4H4Z"/></svg></span></a>
+                        <a href="#" aria-label="Google Scholar"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 9l10-5 10 5-10 5L2 9Z"/><path d="M6 11.5V16c0 1.5 2.7 3 6 3s6-1.5 6-3v-4.5M22 9v5"/></svg></span></a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="footer-title">Navigate</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></span> Home</a></li>
+                        <li><a href="team.html"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></span> Team</a></li>
+                        <li><a href="news.html"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></span> News</a></li>
+                        <li><a href="awards.html"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></span> Awards</a></li>
+                        <li><a href="publications.html"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></span> Publications</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="footer-title">Engage</h4>
+                    <ul class="footer-links">
+                        <li><a href="collaborations.html"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></span> Collaborations</a></li>
+                        <li><a href="lab-posters.html"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></span> Lab Posters</a></li>
+                        <li><a href="gallery.html"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></span> Gallery</a></li>
+                        <li><a href="contact.html"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></span> Contact</a></li>
+                        <li><a href="membership.html"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></span> Membership</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="footer-title">Contact</h4>
+                    <ul class="footer-contact">
+                        <li><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-5.5-7-11a7 7 0 0 1 14 0c0 5.5-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg></span><span>Center for Intelligent Systems, Innovation Campus, Building 7</span></li>
+                        <li><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></span><span>hello@mcaa-lab.org</span></li>
+                        <li><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 3h4l2 5-2.5 1.5a11 11 0 0 0 6 6L16 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 5a2 2 0 0 1 2-2Z"/></svg></span><span>+1 (555) 204-8890</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>&copy; <span id="year">2026</span> MCAA Lab. All rights reserved.</span>
+                <span>Modeling &middot; Control &middot; Automation &middot; Analysis</span>
+            </div>
+        </div>
+    </footer>
+
+    <button class="to-top" id="toTop" aria-label="Back to top">
+        <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6"/></svg></span>
+    </button>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
+

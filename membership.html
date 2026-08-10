@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membership | MCAA Lab</title>
+    <meta name="description" content="Join the MCAA research community. Membership is free for the first year and open to students, researchers, and industry partners.">
+    <link rel="icon" type="image/svg+xml" href="assets/images/brand.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <!-- ============ ANNOUNCEMENT BAR ============ -->
+    <div class="announce-bar">
+        <div class="inner">
+            <p><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l1.8 4.7L18.5 9.5l-4.7 1.8L12 16l-1.8-4.7L5.5 9.5l4.7-1.8L12 3ZM19 15l.8 2.2L22 18l-2.2.8L19 21l-.8-2.2L16 18l2.2-.8L19 15Z"/></svg></span> Membership is free for the first year &mdash; open to students, researchers &amp; industry partners.</p>
+            <a href="membership.html" class="btn">Join Now</a>
+        </div>
+    </div>
+
+    <!-- ============ HEADER ============ -->
+    <header class="site-header" id="siteHeader">
+        <div class="nav-inner">
+            <a class="brand" href="index.html">
+                <span class="brand-mark"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M12 2l8.66 5v10L12 22l-8.66-5V7l8.66-5Z"/><circle cx="12" cy="12" r="4.5" fill="#fff" opacity=".95"/></svg></span>
+                <span class="brand-name">MCAA Lab<span class="brand-sub">Modeling &middot; Control &middot; Automation &middot; Analysis</span></span>
+            </a>
+            <nav aria-label="Primary navigation">
+                <ul class="nav-links">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="team.html">Team</a></li>
+                    <li class="nav-item"><a class="nav-link" href="news.html">News</a></li>
+                    <li class="nav-item"><a class="nav-link" href="awards.html">Awards</a></li>
+                    <li class="nav-item"><a class="nav-link" href="publications.html">Publications</a></li>
+                    <li class="nav-item"><a class="nav-link" href="collaborations.html">Collaborations</a></li>
+                    <li class="nav-item"><a class="nav-link" href="lab-posters.html">Lab Posters</a></li>
+                    <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="membership.html">Membership</a></li>
+                </ul>
+            </nav>
+            <div class="nav-actions">
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle color theme">
+                    <span class="icon icon-sun"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg></span>
+                    <span class="icon icon-moon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg></span>
+                </button>
+                <a href="contact.html" class="btn btn-primary btn-sm nav-btn">Get in Touch <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></a>
+                <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+                    <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- ============ MOBILE NAV ============ -->
+    <div class="mobile-nav" id="mobileNav" aria-hidden="true">
+        <div class="mobile-nav-head">
+            <a class="brand" href="index.html">
+                <span class="brand-mark"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M12 2l8.66 5v10L12 22l-8.66-5V7l8.66-5Z"/><circle cx="12" cy="12" r="4.5" fill="#fff" opacity=".95"/></svg></span>
+                <span class="brand-name">MCAA Lab<span class="brand-sub">Modeling &middot; Control &middot; Automation &middot; Analysis</span></span>
+            </a>
+            <button class="mobile-close" id="mobileClose" aria-label="Close menu">
+                <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></span>
+            </button>
+        </div>
+        <ul class="mobile-nav-list">
+            <li><a class="mobile-link" href="index.html">Home</a></li>
+            <li><a class="mobile-link" href="team.html">Team</a></li>
+            <li><a class="mobile-link" href="news.html">News</a></li>
+            <li><a class="mobile-link" href="awards.html">Awards</a></li>
+            <li><a class="mobile-link" href="publications.html">Publications</a></li>
+            <li><a class="mobile-link" href="collaborations.html">Collaborations</a></li>
+            <li><a class="mobile-link" href="lab-posters.html">Lab Posters</a></li>
+            <li><a class="mobile-link" href="gallery.html">Gallery</a></li>
+            <li><a class="mobile-link" href="contact.html">Contact</a></li>
+            <li><a class="mobile-link active" href="membership.html">Membership</a></li>
+        </ul>
+        <div class="mobile-nav-foot">
+            <a href="contact.html" class="btn btn-primary">Get in Touch <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></a>
+            <a href="membership.html" class="btn btn-ghost">Membership</a>
+        </div>
+    </div>
+
+    <main>
+        <!-- ============ PAGE HERO ============ -->
+        <section class="page-hero">
+            <div class="container">
+                <div>
+                    <div class="breadcrumb"><a href="index.html">Home</a><span class="sep">/</span><span>Membership</span></div>
+                    <h1>Join the research community</h1>
+                    <p class="lede">Membership at MCAA is free for the first year and open to students, researchers, and industry partners.</p>
+                </div>
+                <div class="visual reveal"><img src="assets/images/award-4.jpg" alt="University campus and research community"></div>
+            </div>
+        </section>
+
+        <!-- ============ WHY JOIN ============ -->
+        <section class="section">
+            <div class="container split">
+                <div class="reveal">
+                    <span class="eyebrow mb-2">Membership</span>
+                    <h2 class="h-lg">Why become an MCAA member?</h2>
+                    <p class="text-muted mb-2">Members become part of a community that shares results, hardware, datasets, and training before they reach the broader public.</p>
+                    <ul class="check-list mt-3">
+                        <li><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg></span> Early access to publications, datasets, and software.</li>
+                        <li><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg></span> Invitations to seminars, workshops, and the annual symposium.</li>
+                        <li><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg></span> Networking with researchers, alumni, and industry partners.</li>
+                        <li><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg></span> Mentorship and research training for student members.</li>
+                        <li><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg></span> Opportunities to propose collaborative projects.</li>
+                    </ul>
+                    <div class="d-flex gap-sm mt-4">
+                        <a href="contact.html" class="btn btn-primary">Apply Now <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></a>
+                        <a href="news.html" class="btn btn-ghost">Lab News</a>
+                    </div>
+                </div>
+                <div class="reveal delay-1">
+                    <div class="card-media">
+                        <div class="thumb"><img src="assets/images/member-1.jpg" alt="Community of researchers collaborating"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ MEMBERSHIP TYPES ============ -->
+        <section class="section section-alt">
+            <div class="container">
+                <div class="section-head reveal">
+                    <span class="eyebrow">Categories</span>
+                    <h2>Membership types</h2>
+                </div>
+                <div class="grid grid-3">
+                    <div class="card reveal">
+                        <div class="card-icon"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 9l10-5 10 5-10 5L2 9Z"/><path d="M6 11.5V16c0 1.5 2.7 3 6 3s6-1.5 6-3v-4.5M22 9v5"/></svg></span></div>
+                        <span class="badge badge-blue mb-1">Free first year</span>
+                        <h3>Student Member</h3>
+                        <p>For enrolled undergraduate and graduate students. Includes mentorship, training, and early access to results.</p>
+                        <div class="d-flex gap-sm mt-3">
+                            <a href="contact.html" class="btn btn-primary btn-sm">Apply</a>
+                        </div>
+                    </div>
+                    <div class="card reveal delay-1">
+                        <div class="card-icon"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg></span></div>
+                        <span class="badge badge-teal mb-1">Free first year</span>
+                        <h3>Research Member</h3>
+                        <p>For faculty and researchers. Includes joint publication opportunities and access to the open testbed.</p>
+                        <div class="d-flex gap-sm mt-3">
+                            <a href="contact.html" class="btn btn-primary btn-sm">Apply</a>
+                        </div>
+                    </div>
+                    <div class="card reveal delay-2">
+                        <div class="card-icon"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg></span></div>
+                        <span class="badge badge-green mb-1">Partnership</span>
+                        <h3>Industry Affiliate</h3>
+                        <p>For companies. Includes applied R&amp;D, technology transfer, and priority hiring connections.</p>
+                        <div class="d-flex gap-sm mt-3">
+                            <a href="contact.html" class="btn btn-primary btn-sm">Apply</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ HOW TO APPLY ============ -->
+        <section class="section">
+            <div class="container">
+                <div class="section-head reveal">
+                    <span class="eyebrow">Process</span>
+                    <h2>How to apply</h2>
+                </div>
+                <div class="steps">
+                    <div class="step reveal">
+                        <h4>Submit an enquiry</h4>
+                        <p>Send a short message through the contact form with your background and interests.</p>
+                    </div>
+                    <div class="step reveal delay-1">
+                        <h4>Share your profile</h4>
+                        <p>Provide a brief CV or project description to help us match you to the right team.</p>
+                    </div>
+                    <div class="step reveal delay-2">
+                        <h4>Meet the lab</h4>
+                        <p>Join a short conversation with the team &mdash; on campus or online.</p>
+                    </div>
+                    <div class="step reveal delay-3">
+                        <h4>Welcome aboard</h4>
+                        <p>Receive your membership and start collaborating.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ FAQ ============ -->
+        <section class="section section-alt">
+            <div class="container">
+                <div class="section-head reveal">
+                    <span class="eyebrow">FAQ</span>
+                    <h2>Membership questions</h2>
+                </div>
+                <div class="faq-item reveal">
+                    <button class="faq-q" type="button" aria-expanded="false">How long does the free membership last?<span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></span></button>
+                    <div class="faq-a"><p>Student and research membership is free for the first year. Renewal is optional and open to all members.</p></div>
+                </div>
+                <div class="faq-item reveal">
+                    <button class="faq-q" type="button" aria-expanded="false">Do I need a robotics background to join?<span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></span></button>
+                    <div class="faq-a"><p>Not at all. We welcome interest from mathematics, computer science, engineering, and adjacent fields.</p></div>
+                </div>
+                <div class="faq-item reveal">
+                    <button class="faq-q" type="button" aria-expanded="false">Can industry partners access the testbed?<span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></span></button>
+                    <div class="faq-a"><p>Yes. Industry affiliates get access to shared hardware and datasets under a collaboration agreement.</p></div>
+                </div>
+                <div class="faq-item reveal">
+                    <button class="faq-q" type="button" aria-expanded="false">How do I contact the membership office?<span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></span></button>
+                    <div class="faq-a"><p>Email us at <a href="mailto:hello@mcaa-lab.org">hello@mcaa-lab.org</a> and we will respond within two working days.</p></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ============ FOOTER ============ -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-main">
+                <div class="footer-brand">
+                    <a class="brand" href="index.html">
+                        <span class="brand-mark"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M12 2l8.66 5v10L12 22l-8.66-5V7l8.66-5Z"/><circle cx="12" cy="12" r="4.5" fill="#fff" opacity=".95"/></svg></span>
+                        <span class="brand-name">MCAA Lab<span class="brand-sub">Modeling &middot; Control &middot; Automation &middot; Analysis</span></span>
+                    </a>
+                    <p>MCAA Lab advances modeling, control, automation, and analysis through world-class research, open science, and cross-sector collaboration.</p>
+                    <div class="socials">
+                        <a href="#" aria-label="GitHub"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2a10 10 0 0 0-3.2 19.5c.5.1.7-.2.7-.5v-1.7c-2.8.6-3.4-1.2-3.4-1.2-.4-1.2-1.1-1.5-1.1-1.5-.9-.6.1-.6.1-.6 1 .1 1.5 1 1.5 1 .9 1.6 2.4 1.1 3 .9.1-.7.4-1.1.6-1.4-2.2-.3-4.6-1.1-4.6-5 0-1.1.4-2 1-2.7 0-.3-.4-1.3.1-2.7 0 0 .8-.3 2.7 1a9.4 9.4 0 0 1 5 0c1.9-1.3 2.7-1 2.7-1 .5 1.4.1 2.4.1 2.7.6.7 1 1.6 1 2.7 0 3.9-2.4 4.7-4.6 5 .4.3.7.9.7 1.9v2.8c0 .3.2.6.7.5A10 10 0 0 0 12 2Z"/></svg></span></a>
+                        <a href="#" aria-label="LinkedIn"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4.5 9.5H8V20H4.5V9.5ZM6.25 4a2 2 0 1 1 0 4 2 2 0 0 1 0-4ZM10 9.5H13.4v1.4h.05A3.7 3.7 0 0 1 16.7 9c3 0 3.6 2 3.6 4.5V20h-3.5v-5.5c0-1.3 0-3-1.9-3-1.9 0-2.2 1.4-2.2 2.9V20H10V9.5Z"/></svg></span></a>
+                        <a href="#" aria-label="X (Twitter)"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4l7.2 9.3L4.4 20h2.5l5.4-5.2L16.8 20H20l-7.5-9.7L18.8 4h-2.5l-4.8 4.7L7.2 4H4Z"/></svg></span></a>
+                        <a href="#" aria-label="Google Scholar"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 9l10-5 10 5-10 5L2 9Z"/><path d="M6 11.5V16c0 1.5 2.7 3 6 3s6-1.5 6-3v-4.5M22 9v5"/></svg></span></a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="footer-title">Navigate</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></span> Home</a></li>
+                        <li><a href="team.html"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></span> Team</a></li>
+                        <li><a href="news.html"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></span> News</a></li>
+                        <li><a href="awards.html"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></span> Awards</a></li>
+                        <li><a href="publications.html"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></span> Publications</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="footer-title">Engage</h4>
+                    <ul class="footer-links">
+                        <li><a href="collaborations.html"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></span> Collaborations</a></li>
+                        <li><a href="lab-posters.html"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></span> Lab Posters</a></li>
+                        <li><a href="gallery.html"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></span> Gallery</a></li>
+                        <li><a href="contact.html"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></span> Contact</a></li>
+                        <li><a href="membership.html"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></span> Membership</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="footer-title">Contact</h4>
+                    <ul class="footer-contact">
+                        <li><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-5.5-7-11a7 7 0 0 1 14 0c0 5.5-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg></span><span>Center for Intelligent Systems, Innovation Campus, Building 7</span></li>
+                        <li><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></span><span>hello@mcaa-lab.org</span></li>
+                        <li><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 3h4l2 5-2.5 1.5a11 11 0 0 0 6 6L16 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 5a2 2 0 0 1 2-2Z"/></svg></span><span>+1 (555) 204-8890</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>&copy; <span id="year">2026</span> MCAA Lab. All rights reserved.</span>
+                <span>Modeling &middot; Control &middot; Automation &middot; Analysis</span>
+            </div>
+        </div>
+    </footer>
+
+    <button class="to-top" id="toTop" aria-label="Back to top">
+        <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6"/></svg></span>
+    </button>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
