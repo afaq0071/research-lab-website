@@ -791,7 +791,7 @@ body.nav-lock { overflow: hidden; }
 /* ---------- 15. Responsive ---------- */
 section[id] { scroll-margin-top: calc(var(--header-h) + 16px); }
 
-@media (max-width: 1500px) {
+@media (max-width: 810px) {
   .nav-links, .nav-actions .btn { display: none; }
   .hamburger { display: inline-flex; }
 }
